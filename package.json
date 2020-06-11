@@ -1,0 +1,26 @@
+{
+  "name": "bootcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:1": "ava-ts tasks/1_conditionals/*.spec.ts",
+    "test:2": "ava-ts tasks/2_enums/*.spec.ts",
+    "test:3": "ava-ts tasks/3_classes/*.spec.ts",
+    "test:4": "ava-ts tasks/4_loops/*.spec.ts",
+    "test:5": "ava-ts tasks/5_arrays_1/*.spec.ts",
+    "test:6": "ava-ts tasks/6_arrays_2/*.spec.ts",
+    "test:7": "ava-ts tasks/7_statemachine/*.spec.ts",
+    "test:all": "ava-ts tasks/**/*.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.8.2",
+    "ava-ts": "^0.25.2",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.3"
+  }
+}
