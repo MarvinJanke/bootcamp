@@ -4,7 +4,7 @@ import { isAdult, getPersonName, getAdultNames, getAdultNamesFunctional } from '
 import isAdultTests from './is_adult.fixture';
 
 for (const testCase of isAdultTests) {
-	test.serial(`isAdult: ${testCase[0]} = ${testCase[1]}`, (t) => {
+	test.serial(`isAdult: ${testCase[0].name} = ${testCase[1]}`, (t) => {
 		const result = isAdult(testCase[0]);
 		const expected = testCase[1];
 		t.is(result, expected);
